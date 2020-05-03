@@ -32,4 +32,4 @@ fs.readdir("./cmd/", (err, files) => {if (err) return console.error(err);files.f
 
 
 
-client.login(config.token)
+client.login(process.env.token)
