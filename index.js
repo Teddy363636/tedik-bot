@@ -31,4 +31,4 @@ fs.readdir("./cmd/", (err, files) => {if (err) return console.error(err);files.f
 
 
 
-client.login(config."NzA0MDUxNzIwNzE1NTAxNzAw.XrMZLw.qZ0sJnP5zEmn3GJGQ_sZ5qUlS1w");
+client.login("NzA0MDUxNzIwNzE1NTAxNzAw.XrMZLw.qZ0sJnP5zEmn3GJGQ_sZ5qUlS1w");
