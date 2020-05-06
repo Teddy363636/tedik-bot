@@ -26,9 +26,9 @@ client.on('message', function(message) {
   cmd.run(client, message, args);
 });
 
-fs.readdir("./cmd/", (err, files) => {if (err) return console.error(err);files.forEach(file => {if (!file.endsWith(".js")) return;let props = require(`./cmd/${file}`);let commandName = file.split(".")[0];console.log(`Load command ${commandName}`);client.commands.set(commandName, props);});});
+fs.readdir("./cmd/", (err, files) => 
+    {if (err) return console.error(err);files.forEach(file => {if (!file.endsWith(".js")) return;let props = require(`./cmd/${file}`);let commandName = file.split(".")[0];console.log(`Load command ${commandName}`);client.commands.set(commandName, props);});});
 
 
 
-
-client.login("NzA0MDUxNzIwNzE1NTAxNzAw.XrMZLw.qZ0sJnP5zEmn3GJGQ_sZ5qUlS1w");
+client.login(config.token)
