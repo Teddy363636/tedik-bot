@@ -24,7 +24,7 @@
     "giphy-api": "^2.0.1",
     "https": "^1.0.0",
     "markdown-escape": "^1.0.2",
-    "moment": "^2.25.1",
+    "moment": "^2.29.2",
     "node-fetch": "^2.6.0",
     "os": "^0.1.1",
     "random-number": "0.0.9",
